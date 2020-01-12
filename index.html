@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML,CSS,SVG,JS</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+	integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,500,900&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<div class="logo">			
+					<svg width="52" height="50" viewBox="0 0 48 48">
+	    				<polygon class="logo__polygon" points="22,0 48,14 41,41 13,44 1,20"/>
+	    				<circle class="logo__circle"  r="10" cx="23" cy="25"/>
+					</svg>
+					<a href="#" class="logo__word">Логотип</a>
+				</div>	
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#" class="menu__link">Главная</a>
+						<ul class="menu__sub-menu">
+					        <li><a href="#"  class="menu__sub-link">она одна здесь<i class="far fa-grin-wink"></i></a>
+					    </ul>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Об авторе</a>
+						<ul class="menu__sub-menu">
+					        <li><a href="#" class="menu__sub-link">Карабанова Евгения<i class="far fa-star"></i></a></li>
+					    </ul>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Контакты</a>
+						<ul class="menu__sub-menu">
+					        <li><a href="#" class="menu__sub-link">по кнопке тык<i class="fas fa-external-link-square-alt"></i></a></li>
+					    </ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="offer">
+				<div class="offer-content">
+					<h1 class="offer-content__title">Я начинающий крутой верстальщик</h1>
+					<p class="offer-content__skills">
+						HTML, CSS, SVG, JS
+					</p>
+					<a id="switch" class="offer-content__btn" href="#">Свяжитесь со мной</a>
+				</div>
+				<div class="offer__image">
+					<svg width="391" height="391">
+ 						<defs>
+    						<linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+        						<stop offset="0%" stop-color="#ff8d8b"/>
+        						<stop offset="100%" stop-color="#ffce39"/>
+    						</linearGradient>
+						</defs>
+						<polygon width="100" height="100" fill="url(#Gradient1)" points="137,228 377,73 390,366"/>
+						<defs>
+							<linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+    							<stop offset="25%" stop-color="#de6ca5"/>
+    							<stop offset="100%" stop-color="#4763f2"/>
+							</linearGradient>
+						</defs>
+						<polygon width="100" height="100" fill="url(#Gradient2)" points="0,146 366,3 307,389"/>
+						<defs>
+							<linearGradient id="Gradient3" x1="0" x2="0" y1="0" y2="1">
+						    	<stop offset="0%" stop-color="#189afd"/>
+						    	<stop offset="100%" stop-color="#41b56c"/>
+							</linearGradient>
+						</defs>
+						<polygon width="100" height="100" fill="url(#Gradient3)" points="49,49 215,51 166,179"/>
+					</svg>
+				</div>
+			</div>
+			<div class="copyright-block">
+				<p class="copyright-block__content">
+					<a href="https://wayup.in/" class="copyright-block__link" target="_blank">Дизайн-идея принадлежит WayUp</a>
+				</p>
+			</div>
+		</div>
+	</header>
+	<script src="js/main.js"></script>
+</body>
+</html>

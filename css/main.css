@@ -1,0 +1,197 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div,
+p,
+a {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__polygon {
+	fill: #55b72c;
+	stroke: #72b25f;
+	stroke-width: 2;
+}
+
+.logo__circle {
+		fill: #fff;
+}
+
+.logo__word {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: 2px;
+	padding-left: 20px;
+}
+
+.logo__word:hover,
+.logo__word:active {
+	font-weight: 900;
+	text-shadow: #55b72c 1px 1px 0, #55b72c -1px -1px 0, 
+                 #55b72c -1px 1px 0, #55b72c 1px -1px 0;
+	transition: all 0.8s linear;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+}
+
+.logo {
+	display: flex;
+}
+
+.menu  {
+	display: flex;
+	align-items: center;
+}
+
+.menu__item {
+	padding-left: 107px;
+	position: relative;
+	display: inline-block;
+}
+
+.menu__link {
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 0;
+}
+
+.menu__link:hover,
+.menu__link:active {
+	color: #55b72c;
+	border-top: 1px dotted #55b72c;
+	border-bottom: 1px dotted #55b72c;
+}
+
+.menu__sub-menu {
+	position: absolute;
+	top: 30px;
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+	text-align: center;
+	transition: all 0.5s ease-in;
+}
+
+.menu__sub-link {
+	color: #fff;
+	font-size: 15px;
+}
+
+.far,
+.fas {
+	color: #fff;
+	font-size: 14px;
+	padding: 0 8px;
+}
+
+.fa-external-link-square-alt{
+	transform: rotate(180deg);
+}
+
+.offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.offer-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	line-height: 1.8;
+}
+
+.offer-content__title {
+	font-size: 35px;
+	font-weight: 900;
+	width: 80%;
+	text-align: left;
+}
+
+.offer-content__skills {
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.offer-content__btn {
+	display: inline-block;
+	width: 350px;
+	font-size: 23px;
+	color: #000;
+	font-weight: 900;
+	text-align: center;
+	border: 2px solid #ffce39;
+	background: #ffce39;
+	padding: 10px;
+}
+
+.offer__image {
+	padding-right: 80px;
+}
+
+.copyright-block__content {
+	text-align: right;
+}
+
+.copyright-block__link {
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.copyright-block__link:hover {
+	font-size: 15px;
+	opacity: 1;
+	text-shadow: 2px 2px 4px #55b72c; 
+	transition: all 1.2s ease;
+}
+
+
+
+
+
+
+
+
